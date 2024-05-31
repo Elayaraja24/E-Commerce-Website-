@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:  "Jost", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: lightblue;
+}
+
+.navmenu{
+    display: flex;
+}
+.navmenu a{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+    display: flex;
+}
+
+.navmenu a:hover{
+    color: red;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.3);
+    color: red;
+}
+#menu-icon{
+    font-size: 31px;
+    color: black;
+    z-index: 10001;
+    cursor: pointer;
+}
+section{
+    padding: 5% 1%;
+}
+.main-home{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Cover\ image.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+    align-items:center;
+    margin-top: 30px;
+}
+.main-text h5{
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.main-text h1{
+    color: blueviolet;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 1.1;
+    margin: 6px 0px 10px;
+    padding:0% 1% ;
+}
+.main-text p{
+    padding: 0% 1%;
+    margin-bottom: 15px;
+}
+.main-btn {
+    display: inline-block;
+    color: black;
+    font-size:  16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 12px 25px;
+    transition: all .42s ease;
+    margin-bottom: 20px;
+} 
+.main-text a{
+    padding: 0% 3%;
+}
+.main-btn:hover{
+    background-color: black;
+    color: white;
+}
+.down-arrow{
+    position: absolute;
+    top: 76%;
+    right: 11%;
+}
+.down i{
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 12px;
+}
+.down i:hover{
+    background-color: black;
+    color: white;
+    transition: all .42s ease;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 2rem;
+    padding-left: 70px;
+    justify-content: space-evenly;
+}
+.row2{
+    position: relative;
+    transition: all .40s;
+    justify-content: space-evenly;
+}
+.row2 img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+    justify-content: space-evenly;
+}
+.row2 img:hover{
+    transform: scale(0.9);
+}
+.details{
+    padding-top: 80px;
+}
+.details:hover{
+    color: blue;
+    cursor:context-menu;
+}
+
+.center-text h2{
+    color: black;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.center-text span{
+    color:purple;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;  
+    
+    
+}
+.row{
+    position: relative;
+    transition: all .40s;
+}
+
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+.row img:hover{
+    transform: scale(0.9);
+}
+.Price {
+    padding: 0px 15px;
+}
+.ratting{
+    padding: 0px 15px;
+    color: #FFD700;
+    font-size: 18px;
+}
+.heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+.heart-icon:hover{
+    color: red;
+}
+
+.Price h4{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.Price p{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact {
+    background-color: #f3f4f6;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+}
+.contact-info h4{
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.contact-info p{
+    color: #565656;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.contact-info p:hover{
+    color: red;
+}
+.social-media i{
+    color: #565656;
+    margin-right: 15px;
+}
+.social-media i:hover{
+    transform: scale(1.5);
+}
+.end-text{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.end-text p{
+    color: black;
+    text-transform: capitalize;
+
+}
